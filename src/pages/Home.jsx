@@ -18,9 +18,9 @@ const Home = () => {
         <Slider {...settings}>
           <Box sx={{ position: "relative" }}>
             <img src="/src/assets/images/hero.png" alt="Hero" style={{ width: "100%", borderRadius: "8px" }} />
-            <Box sx={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "black", textAlign: "center" }}>
+            <Box sx={{ position: "absolute", top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "white", textAlign: "center" }}>
               <Typography variant="h2" fontWeight="bold">Sherpa Clothing Collection</Typography>
-              <Typography variant="h5" mb={2}>Premium quality, warm, and stylish</Typography>
+              <Typography variant="h4" mb={2}>Premium quality, warm, and stylish</Typography>
               <a href="/products" style={{ textDecoration: "none" }}>
                 <Box component="button" sx={{ bgcolor: "secondary.main", color: "white", px: 3, py: 1, border: "none", borderRadius: 1 }}>Shop Now</Box>
               </a>
